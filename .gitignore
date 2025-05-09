@@ -172,3 +172,25 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ML model artifacts and data
+*.joblib
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.sav
+
+# Mordred descriptor cache
+mordred_cache/
+
+# Output plots and figures
+*.png
+*.jpg
+*.svg
+*.pdf
+
+# Temporary model exports
+models/
+outputs/
+results/
