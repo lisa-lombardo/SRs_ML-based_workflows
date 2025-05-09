@@ -1,0 +1,21 @@
+﻿Column1;Target Name;Target Organism;Standard Relation;Smiles;Standard Value;Standard Type;Standard Units
+A_1;S1R;Homo sapiens;>;CCc1cccc(C)c1NC(=O)CN3CCC([H])(Cc2ccccc2)CC3 ;10000;Ki;nM
+ A_2;S1R;Homo sapiens;=';CC1([H])CCN(CC1)C(=O)c4ccc(CN2CCN(CC2)c3ccccc3)cc4;179.06;Ki;nM
+A_3;S1R;Homo sapiens;'=';O=C(CN2CCC([H])(Cc1ccccc1)CC2)Nc3cccc4ccccc34 ;1081.43;Ki;nM
+ PPA_2;S1R;Homo sapiens;'=';C[C@]3([H])CCCN(CC(=O)N1CCN(CC1)c2ccccc2)C3;4.83;Ki;nM
+PPA_3;S1R;Homo sapiens;'=';CC3([H])CCN(CC(=O)N1CCN(CC1)c2ccccc2)CC3 ;9.35;Ki;nM
+PPA_4;S1R;Homo sapiens;'=';CCCC3([H])CCN(CC(=O)N1CCN(CC1)c2ccccc2)CC3 ;8.47;Ki;nM
+PPA_5;S1R;Homo sapiens;=';O=C(CN1CCC([H])(CC1)c2ccccc2)N3CCN(CC3)c4ccccc4 ;25.35;Ki;nM
+ PBP-A1;S1R;Homo sapiens;=';O=C(CN2CCC([H])(CC=1C=CC=CC=1)CC2)N3CCN(CC3)C=4C=CC=CC=4;3.16;Ki;nM
+PBP-A10;S1R;Homo sapiens;'=';O=C(CN2CCC([H])(CC=1C=CC=CC=1)CC2)N3CCN(CC3)C=4C=CC(O)=CC=4 ;24.1;Ki;nM
+PBP-P1;S1R;Homo sapiens;'=';O=C(CCN2CCC([H])(CC=1C=CC=CC=1)CC2)N3CCN(CC3)C=4C=CC=CC=4;8.93;Ki;nM
+PBP-P10;S1R;Homo sapiens;'=';O=C(CCN2CCC([H])(CC=1C=CC=CC=1)CC2)N3CCN(CC3)C=4C=CC(O)=CC=4 ;328.1;Ki;nM
+PBP-P20;S1R;Homo sapiens;'=';O=C(CCN2CCC([H])(CC=1C=CC([F])=CC=1)CC2)N3CCN(CC3)C=4C=CC(O)=CC=4 ;434.51;Ki;nM
+P-OH_diPh;S1R;Homo sapiens;>;O=C(C=1C=CC(=CC=1)C=2C=CC=CC=2)N3CCN(CC3)C=4C=CC(O)=CC=4 ;10000;Ki;nM
+P-OH_Ph;S1R;Homo sapiens;>;O=C(C=1C=CC=CC=1)N2CCN(CC2)C=3C=CC(O)=CC=3 ;10000;Ki;nM
+SF4C_2Br;S1R;Homo sapiens;=';O=C(C/C1=C/C=C/C=C1/[Br])N2CCN(CC2)CC=3C=CC([F])=CC=3 ;366.44;Ki;nM
+SF4C_BFUR;S1R;Homo sapiens;'=';O=C(C=2OC=1C=CC=CC=1C=2)N3CCN(CC3)CC=4C=CC([F])=CC=4 ;131.52;Ki;nM
+SF4C_BTIO;S1R;Homo sapiens;'=';O=C(C=2[S]C=1C=CC=CC=1C=2)N3CCN(CC3)CC=4C=CC([F])=CC=4 ;81.85;Ki;nM
+SF4C_diPh;S1R;Homo sapiens;'=';O=C(N1CCN(CC1)CC=2C=CC([F])=CC=2)C([H])(C=3C=CC=CC=3)C=4C=CC=CC=4 ;389.94;Ki;nM
+SF4C_Fur_SCH3;S1R;Homo sapiens;'=';O=C(C=1OC(C)=CC=1)N2CCN(CC2)CC=3C=CC([F])=CC=3 ;213.8;Ki;nM
+SF4C_Tio_SNO2;S1R;Homo sapiens;=';O=C(C1=CSC(=C1)[N+](=O)[O-])N2CCN(CC2)CC3=CC=C(F)C=C3;309.03;Ki;nM
