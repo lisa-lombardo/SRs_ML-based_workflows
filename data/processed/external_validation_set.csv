@@ -1,0 +1,221 @@
+canonical_smiles,ID,Target Name,Target Organism,Standard Relation,Standard Value,Standard Type,Standard Units,original_source,pActivity,activity,selectivity
+CC(C)(C)OC(=O)N1CCCC1CNC1CCC(c2cc(F)ccc2F)(S(=O)(=O)c2ccc(Cl)cc2)CC1,155557564,S1R,Homo sapiens,=,223.0,Ki,nM,PubChem,6.651695136951839,active,S1R selective
+CCC(=N\O)/C(C)=C/c1ccc(F)c(C)c1,CHEMBL3701197,S1R,Homo sapiens,=,528.76,Ki,nM,ChEMBL,6.276741406087347,active,S1R selective
+CCN(CC)CCOCCOC(=O)C1(c2ccccc2)CCCC1,CHEMBL73234,S1R,Homo sapiens,=,19.5,Ki,nM,ChEMBL,7.709965388637482,active,S1R selective
+CNc1ccccc1CNCCCNC(=O)c1ccc(Cl)cc1,"N-[3-(2-(N-methylbenzyl)amino)ethyl]-4-chlorobenzamide::US10179761, Compound 3.1.9",S1R,Homo Sapiens,=,3.6,Ki,nM,BindingDB,8.443697499232712,active,S1R selective
+COC1Cc2ccccc2C2(CCC(N(C)CC3CCCCC3)CC2)O1,155553997,S1R,Homo sapiens,=,6.9,Ki,nM,PubChem,8.161150909262744,active,S1R selective
+O=C(c1c2c(nn1-c1ccccc1)CCC(NCCc1ccc(C(F)(F)F)cc1)C2)N1CCCCC1,CHEMBL4564028,S1R,Homo sapiens,=,199.53,Ki,nM,ChEMBL,6.699991797446187,active,S1R selective
+O=C(c1cc2ccccc2o1)N1CCN(Cc2ccc(F)cc2)CC1,SF4C_BFUR,S1R,Homo sapiens,=,131.52,Ki,nM,in-house,6.881008199804024,active,S1R selective
+O=C(c1csc([N+](=O)[O-])c1)N1CCN(Cc2ccc(F)cc2)CC1,SF4C_Tio_SNO2,S1R,Homo sapiens,=,309.03,Ki,nM,in-house,6.509999358109048,active,S1R selective
+CC(C)(C)OC(=O)N1CCCC1CNC1CCC(c2cc(F)ccc2F)(S(=O)(=O)c2ccc(Cl)cc2)CC1,11653679,S2R,Homo sapiens,=,5129000.0,Ki,nM,PubChem,2.2899673009342463,inactive,S1R selective
+CCC(=N\O)/C(C)=C/c1ccc(F)c(C)c1,155552895,S2R,Homo sapiens,=,31623000.0,Ki,nM,PubChem,1.4999969319483066,inactive,S1R selective
+CCN(CC)CCOCCOC(=O)C1(c2ccccc2)CCCC1,CHEMBL73234,S2R,Homo sapiens,=,1953.0,Ki,nM,ChEMBL,5.709297756712146,active,S1R selective
+CNc1ccccc1CNCCCNC(=O)c1ccc(Cl)cc1,"N-[3-(2-(N-methylbenzyl)amino)ethyl]-4-chlorobenzamide::US10179761, Compound 3.1.9",S2R,Homo sapiens,=,850.0,Ki,nM,BindingDB,6.070581074285707,active,S1R selective
+COC1Cc2ccccc2C2(CCC(N(C)CC3CCCCC3)CC2)O1,9817231,S2R,Homo sapiens,=,79433000.0,Ki,nM,PubChem,1.0999990348465305,inactive,S1R selective
+O=C(c1c2c(nn1-c1ccccc1)CCC(NCCc1ccc(C(F)(F)F)cc1)C2)N1CCCCC1,CHEMBL4564028,S2R,Homo sapiens,>,10000.0,Ki,nM,ChEMBL,5.0,inactive,S1R selective
+O=C(c1cc2ccccc2o1)N1CCN(Cc2ccc(F)cc2)CC1,SF4C_BFUR,S2R,Homo sapiens,>,10000.0,Ki,nM,in-house,5.0,inactive,S1R selective
+O=C(c1csc([N+](=O)[O-])c1)N1CCN(Cc2ccc(F)cc2)CC1,SF4C_Tio_SNO2,S2R,Homo sapiens,>,10000.0,Ki,nM,in-house,5.0,inactive,S1R selective
+C#CCOc1ccc(C#N)cc1C(=O)NCCCCN1CCc2cc(OC)c(OC)cc2C1,S2RSLDB54,S1R,Homo sapiens,=,3678.0,Ki,nM,S2RSLDB,5.434388275097941,active,S2R selective
+CCCn1nc(C(=O)N2CCCCC2)c2c1CCC(NCCc1ccc(O)cc1)C2,CHEMBL4545459,S1R,Homo sapiens,>,10000.0,Ki,nM,ChEMBL,5.0,inactive,S2R selective
+CCn1c(=O)n(C(=O)NC2C[C@@H]3CC[C@@H](C2)N3C)c2ccccc21,CHEMBL4167498,S1R,Homo sapiens,=,6300.0,Ki,nM,ChEMBL,5.200659450546418,active,S2R selective
+COc1cc2c(cc1OC)CN(C(C)(C)CCc1ccc(OCCO)c(OC)c1)C2,"US10207991, Ex. Cpd. No. 48::US10611728, Example Compound 48",S1R,Homo Sapiens,=,3600.0,Ki,nM,BindingDB,5.443697499232712,active,S2R selective
+COc1cc2c(cc1OC)CN(CC1CCN(C(=O)c3cc4cc(Br)ccc4o3)CC1)CC2,S2RSLDB55,S1R,Homo sapiens,=,2545.0,Ki,nM,S2RSLDB,5.594312213327222,active,S2R selective
+COc1cc2c(cc1OC)CN(CCCCNC(=O)c1cc3cc(I)ccc3o1)CC2,S2RSLDB83,S1R,Homo sapiens,=,752.0,Ki,nM,S2RSLDB,6.123782159408358,active,S2R selective
+COc1cc2c(cc1OC)CN(CCCNC(=O)c1cc(Br)cc(OC)c1OC)CC2,S2RSLDB51,S1R,Homo sapiens,=,4400.0,Ki,nM,S2RSLDB,5.356547323513812,active,S2R selective
+COc1cc2c(cc1OC)CN(CCCNC(=O)c1cc(C)ccc1OC)CC2,S2RSLDB67,S1R,Homo sapiens,=,534.0,Ki,nM,S2RSLDB,6.272458742971444,active,S2R selective
+COc1cc2c(cc1OC)CN(CCNC(=O)c1cc(C)ccc1OC)CC2,CHEMBL64260,S1R,Homo sapiens,=,10412.0,Ki,nM,ChEMBL,4.982465840562802,inactive,S2R selective
+COc1ccc(C)cc1NC(=O)OC1CC2CCCC(C1)N2CCCCCCNS(=O)(=O)c1cccc2c(N(C)C)cccc12,S2RSLDB98,S1R,Homo sapiens,=,12644.0,Ki,nM,S2RSLDB,4.898115512832458,inactive,S2R selective
+Nc1ccc2c(c1)oc(=O)n2CCCCN1CCN(c2ccc(F)cc2)CC1,S2RSLDB122,S1R,Homo sapiens,>,10000.0,Ki,nM,S2RSLDB,5.0,inactive,S2R selective
+O=C(c1ccc(F)cc1)C1CCN([C@H]2Cc3c(cccc3OCCF)C[C@@H]2O)CC1,S2RSLDB556,S1R,Homo sapiens,>,10000.0,Ki,nM,S2RSLDB,5.0,inactive,S2R selective
+C#CCOc1ccc(C#N)cc1C(=O)NCCCCN1CCc2cc(OC)c(OC)cc2C1,S2RSLDB54,S2R,Homo sapiens,=,12.2,Ki,nM,S2RSLDB,7.913640169325252,active,S2R selective
+CCCn1nc(C(=O)N2CCCCC2)c2c1CCC(NCCc1ccc(O)cc1)C2,CHEMBL4545459,S2R,Homo sapiens,=,251.19,Ki,nM,ChEMBL,6.599997654072044,active,S2R selective
+CCn1c(=O)n(C(=O)NC2C[C@@H]3CC[C@@H](C2)N3C)c2ccccc21,CHEMBL4167498,S2R,Homo sapiens,=,32.0,Ki,nM,ChEMBL,7.494850021680094,active,S2R selective
+COc1cc2c(cc1OC)CN(C(C)(C)CCc1ccc(OCCO)c(OC)c1)C2,"US10207991, Ex. Cpd. No. 48::US10611728, Example Compound 48",S2R,Homo sapiens,=,22.0,Ki,nM,BindingDB,7.657577319177793,active,S2R selective
+COc1cc2c(cc1OC)CN(CC1CCN(C(=O)c3cc4cc(Br)ccc4o3)CC1)CC2,S2RSLDB55,S2R,Homo sapiens,=,8.7,Ki,nM,S2RSLDB,8.060480747381382,active,S2R selective
+COc1cc2c(cc1OC)CN(CCCCNC(=O)c1cc3cc(I)ccc3o1)CC2,S2RSLDB83,S2R,Homo sapiens,=,6.2,Ki,nM,S2RSLDB,8.207608310501746,active,S2R selective
+COc1cc2c(cc1OC)CN(CCCNC(=O)c1cc(Br)cc(OC)c1OC)CC2,S2RSLDB51,S2R,Homo sapiens,=,12.9,Ki,nM,S2RSLDB,7.889410289700751,active,S2R selective
+COc1cc2c(cc1OC)CN(CCCNC(=O)c1cc(C)ccc1OC)CC2,S2RSLDB67,S2R,Homo sapiens,=,2.63,Ki,nM,S2RSLDB,8.580044251510243,active,S2R selective
+COc1cc2c(cc1OC)CN(CCNC(=O)c1cc(C)ccc1OC)CC2,S2RSLDB24,S2R,Homo sapiens,=,13.3,Ki,nM,S2RSLDB,7.876148359032914,active,S2R selective
+COc1ccc(C)cc1NC(=O)OC1CC2CCCC(C1)N2CCCCCCNS(=O)(=O)c1cccc2c(N(C)C)cccc12,S2RSLDB98,S2R,Homo sapiens,=,148.0,Ki,nM,S2RSLDB,6.8297382846050425,active,S2R selective
+Nc1ccc2c(c1)oc(=O)n2CCCCN1CCN(c2ccc(F)cc2)CC1,S2RSLDB122,S2R,Homo sapiens,=,177.47,Ki,nM,S2RSLDB,6.750875050696828,active,S2R selective
+O=C(c1ccc(F)cc1)C1CCN([C@H]2Cc3c(cccc3OCCF)C[C@@H]2O)CC1,S2RSLDB556,S2R,Homo sapiens,=,7800.0,Ki,nM,S2RSLDB,5.107905397309519,active,S2R selective
+C#CCN(CCCN1CCN(C2CCCCC2)CC1)Cc1ccc(C(=O)c2ccc([N+](=O)[O-])cc2)cc1,S2RSLDB282,S1R,Homo sapiens,=,29.8,Ki,nM,S2RSLDB,7.525783735923745,active,dual binder
+C=CCN(CC=C)CCc1c[nH]c2ccc(Br)cc12,CHEMBL3754166,S1R,Homo sapiens,=,102.33,Ki,nM,ChEMBL,6.98999702587294,active,dual binder
+C=CCN1CCN(c2ccc3c(c2)CCCN(C(=O)OCc2ccccc2)C3)CC1,"US10954217, Example Table 3.A38",S1R,Homo Sapiens,=,116.0,Ki,nM,BindingDB,6.935542010773082,active,dual binder
+C=CCN1CCN(c2ccc3c(c2)CN(S(=O)(=O)c2cc(Cl)cc(Cl)c2)C3)CC1,"US10954217, Example KTL-01-276",S1R,Homo Sapiens,=,23.0,Ki,nM,BindingDB,7.638272163982407,active,dual binder
+C=CCOC(=O)N1CC[C@H]2C[C@@H]1c1cc(N3CCN(C)CC3)ccc12,S2RSLDB647,S1R,Homo sapiens,=,2105.0,Ki,nM,S2RSLDB,5.676747899828313,active,dual binder
+CC(=O)Nc1ccc2c(c1)oc(=O)n2CCCCN1CCN(C2CCCCC2)CC1,S2RSLDB429,S1R,Homo sapiens,=,213.87,Ki,nM,S2RSLDB,6.669850130567347,active,dual binder
+CC(=O)c1ccc2c(ccn2CCCCN2CCN(C3CCCCC3)CC2)c1,S2RSLDB462,S1R,Homo sapiens,=,5.33,Ki,nM,S2RSLDB,8.273272790973428,active,dual binder
+CC(C)(CCc1ccc(F)cc1)N1Cc2cccc(F)c2C1,"US10207991, Ex. Cpd. No. 33::US10611728, Example Compound 33",S1R,Homo Sapiens,=,32.0,Ki,nM,BindingDB,7.494850021680094,active,dual binder
+CC(C)Oc1ccc(CC[C@@H](C)N2Cc3cccc(F)c3C2)cc1OC(C)C,"US10207991, Ex. Cpd. No. 39::US10611728, Example Compound 39",S1R,Homo Sapiens,=,62.0,Ki,nM,BindingDB,7.207608310501746,active,dual binder
+CC1(C)C2CC[C@]1(C)CN(CCCC1CCCCC1)C2,CHEMBL306318,S1R,Homo sapiens,=,2.53,Ki,nM,ChEMBL,8.596879478824182,active,dual binder
+CC1(C)CCCN(CCCCCn2c3ccccc3c3ccccc32)C1,S2RSLDB570,S1R,Homo sapiens,=,138.0,Ki,nM,S2RSLDB,6.860120913598763,active,dual binder
+CC1(C)CCCN(CCCc2cccc3occc23)C1,S2RSLDB530,S1R,Homo sapiens,=,63.5,Ki,nM,S2RSLDB,7.197226274708024,active,dual binder
+CC1(C)CCCN(Cc2cc3ccccc3o2)C1,S2RSLDB482,S1R,Homo sapiens,=,3690.0,Ki,nM,S2RSLDB,5.432973633840939,active,dual binder
+CCCCN1CCN(Cc2ccc(-c3ccccc3)cc2)[C@@H](CCO)C1,CHEMBL3233536,S1R,Homo sapiens,=,465.0,Ki,nM,ChEMBL,6.332547047110047,active,dual binder
+CCCN1CCN(c2ccc3c(c2)CN(C(=O)OCc2ccccc2)CC3)CC1,"US10954217, Example Table 3.A25",S1R,Homo Sapiens,=,85.0,Ki,nM,BindingDB,7.070581074285707,active,dual binder
+CCCN1CCN(c2cccc(C3CCCCN3C(=O)/C=C/c3ccccc3)c2)CC1,CHEMBL5183680,S1R,Homo sapiens,=,4.786,Ki,nM,ChEMBL,8.320027305722581,active,dual binder
+CN(CCCNC(=O)c1cc2ccccc2o1)Cc1ccccc1,CHEMBL5169420,S1R,Homo sapiens,=,12.0,Ki,nM,ChEMBL,7.920818753952375,active,dual binder
+CN(Cc1cccnc1)C1C2C3CC4C5C3CC2C5C41,S2RSLDB580,S1R,Homo sapiens,=,970.0,Ki,nM,S2RSLDB,6.013228265733755,active,dual binder
+CN1C2CCC1CC(OC(c1ccccc1)c1ccccc1)C2,S2RSLDB265,S1R,Homo sapiens,=,313.9,Ki,nM,S2RSLDB,6.503208684299958,active,dual binder
+CN1CCN(c2ccc3c(c2)CN(C(=O)OCc2ccccc2)C3)CC1,"CHEMBL4163428::US10954217, Example 00227",S1R,Homo Sapiens,=,250.0,Ki,nM,BindingDB,6.6020599913279625,active,dual binder
+CN1CC[C@@H]2C[C@@H]1c1cc(-c3ccc(C(F)(F)F)cc3)ccc12,"US11046670, Compound 41",S1R,Homo Sapiens,=,156.0,Ki,nM,BindingDB,6.806875401645538,active,dual binder
+COC(=O)C1(c2ccccc2)CC1CN(C)C12CC3CC(CC(C3)C1)C2,S2RSLDB584,S1R,Homo sapiens,=,12.0,Ki,nM,S2RSLDB,7.920818753952375,active,dual binder
+COC1Cc2ccccc2[C@]2(CC[C@H](N(C)CC3CCCCC3)CC2)O1,CHEMBL4562252,S1R,Homo sapiens,=,7.3,Ki,nM,ChEMBL,8.136677139879543,active,dual binder
+COc1cc(CC[C@@H](C)N2Cc3ccc(S(C)(=O)=O)cc3C2)ccc1O,"US10207991, Ex. Cpd. No. 68::US10611728, Example Compound 68",S1R,Homo Sapiens,=,100.0,Ki,nM,BindingDB,7.0,active,dual binder
+COc1cc([N+](=O)[O-])ccc1NC(=O)OC1CC2CCC(C1)N2Cc1ccccc1,S2RSLDB380,S1R,Homo sapiens,=,7.9,Ki,nM,S2RSLDB,8.102372908709558,active,dual binder
+COc1cc2c(cc1OC)CN(CC1CCN(C(=O)c3cc4ccccc4o3)CC1)CC2,S2RSLDB297,S1R,Homo sapiens,=,322.0,Ki,nM,S2RSLDB,6.492144128304169,active,dual binder
+COc1cc2c(cc1OC)CN(CCCCC(=O)c1ccc(F)cc1)CC2,S2RSLDB547,S1R,Homo sapiens,=,16.6,Ki,nM,S2RSLDB,7.779891911959945,active,dual binder
+COc1cc2c(cc1OC)CN(CCCCn1cc(CCCF)c3ccccc31)CC2,S2RSLDB261,S1R,Homo sapiens,=,262.5,Ki,nM,S2RSLDB,6.580870692258024,active,dual binder
+COc1ccc(C)cc1NC(=O)OC1CC2CCCC(C1)N2Cc1cccc(F)c1,S2RSLDB590,S1R,Homo sapiens,=,322.0,Ki,nM,S2RSLDB,6.492144128304169,active,dual binder
+COc1ccc(CCN2CCC(Nc3nc4ccccc4n3Cc3ccc(F)cc3)CC2)cc1,CHEMBL296419,S1R,Homo sapiens,=,944.0,Ki,nM,ChEMBL,6.025028005701931,active,dual binder
+COc1ccc2c(c1)C(CCCCN1CCCC(C)(C)C1)CCC2,S2RSLDB597,S1R,Homo sapiens,=,21.4,Ki,nM,S2RSLDB,7.669586226650809,active,dual binder
+COc1cccc2c1CCCC2CCCNCC(=O)NC1CCCCC1,S2RSLDB342,S1R,Homo sapiens,=,3910.0,Ki,nM,S2RSLDB,5.407823242604133,active,dual binder
+COc1cccc2c1CCC[C@@H]2NCCN1CCN(C2CCCCC2)CC1,S2RSLDB430,S1R,Homo sapiens,=,23.3,Ki,nM,S2RSLDB,7.632644078973981,active,dual binder
+CS(=O)(=O)C1C[C@H]2C[C@@H]1C[C@@H]2c1ccc(-c2cc(C(=O)O)cc3cc(-c4ccc(C(F)(F)F)cc4)ccc23)cc1,CHEMBL5090079,S1R,Homo sapiens,=,4000.0,Ki,nM,ChEMBL,5.3979400086720375,active,dual binder
+C[C@H](CCc1ccc(Cl)c(Cl)c1)N1Cc2cc3c(cc2C1)OCO3,"US10207991, Ex. Cpd. No. 10::US10611728, Example Compound 10",S1R,Homo Sapiens,=,1.4,Ki,nM,BindingDB,8.853871964321762,active,dual binder
+C[C@H](CCc1ccc(Cl)c(Cl)c1)N1Cc2cccc(F)c2C1,"US10207991, Ex. Cpd. No. 9::US10611728, Example Compound 9",S1R,Homo Sapiens,=,17.0,Ki,nM,BindingDB,7.769551078621726,active,dual binder
+C[C@H](CCc1ccc(O)c(OC(C)(C)C)c1)N1Cc2c(F)ccc(F)c2C1,"US10207991, Ex. Cpd. No. 60A::US10611728, Example Compound 60A",S1R,Homo Sapiens,=,410.0,Ki,nM,BindingDB,6.3872161432802645,active,dual binder
+Cc1c(Cl)cccc1NC(=O)CN1CCC2(CCCN2Cc2ccc(F)c(F)c2)CC1,CHEMBL5290749,S1R,Homo sapiens,=,83.18,Ki,nM,ChEMBL,7.079981083971085,active,dual binder
+Cc1ccc2c(c1)COC21CCN(CCCCc2cn(-c3ccc(F)cc3)c3ccccc23)CC1,S2RSLDB370,S1R,Homo sapiens,=,9.5,IC50,nM,S2RSLDB,8.022276394711152,active,dual binder
+Cc1cccc(C)c1C1CC=C(N2CCN(c3ccccn3)CC2)CC1,S2RSLDB521,S1R,Homo sapiens,=,177.0,Ki,nM,S2RSLDB,6.752026733638194,active,dual binder
+Clc1ccc(Nc2nc3ccccc3c3[nH]c([C@@H]4C[C@@H]5CCC[C@@H](C5)C4)nc23)cc1Cl,CHEMBL5174205,S1R,Homo sapiens,=,2420.0,Ki,nM,ChEMBL,5.616184634019569,active,dual binder
+Cn1c(=O)n(CCCCN2CCN(c3ccc(F)cc3)CC2)c2cc([N+](=O)[O-])ccc21,S2RSLDB399,S1R,Homo sapiens,=,15.5,Ki,nM,S2RSLDB,7.809668301829708,active,dual binder
+Cn1cc(CCCCN2CCC3(CC2)OCc2ccccc23)c2ccccc21,S2RSLDB303,S1R,Homo sapiens,=,2.1,IC50,nM,S2RSLDB,8.67778070526608,active,dual binder
+FCCOc1ccc(N2CCN(CCCCc3cn(-c4ccc(F)cc4)c4ccccc34)CC2)cc1,S2RSLDB264,S1R,Homo sapiens,=,614.0,Ki,nM,S2RSLDB,6.211831628858833,active,dual binder
+Fc1ccc(N2CCN(Cc3cn(CN4CCN(c5ccc(F)cc5)CC4)c4ccccc34)CC2)cc1,S2RSLDB433,S1R,Homo sapiens,=,2690.0,Ki,nM,S2RSLDB,5.570247719997592,active,dual binder
+Fc1ccc(OCCCN2CCN(c3ccccc3)CC2)cc1,CHEMBL1940412,S1R,Homo sapiens,=,41.5,Ki,nM,ChEMBL,7.3819519032879075,active,dual binder
+O=C(CCCCN1CCC(CO)CC1)c1ccc(F)cc1,S2RSLDB513,S1R,Homo sapiens,=,152.0,Ki,nM,S2RSLDB,6.818156412055227,active,dual binder
+O=C(CN1CCC(Cc2ccccc2)CC1)Nc1cccc2ccccc12,A_3,S1R,Homo sapiens,=,1081.43,Ki,nM,in-house,5.966001586809831,active,dual binder
+O=C(Nc1ccc(Oc2ccc(F)cc2)cc1)N1CCc2ncccc2[C@H]1c1ccc(F)cc1,CHEMBL4592872,S1R,Homo sapiens,=,2398.0,Ki,nM,ChEMBL,5.6201508212371705,active,dual binder
+O=C(O)C(=O)O.c1ccc(CC2CCN(CC3CSC4(CCCC4)S3)CC2)cc1,CHEMBL4642427,S1R,Homo sapiens,=,4.2,Ki,nM,ChEMBL,8.3767507096021,active,dual binder
+O=C(O)c1cc(-c2ccc([C@@H]3C[C@@H]4C[C@H]3C(=O)N4)cc2)c2ccc(-c3ccc(C(F)(F)F)cc3)cc2c1,CHEMBL5076127,S1R,Homo sapiens,=,3200.0,Ki,nM,ChEMBL,5.494850021680094,active,dual binder
+O=C(c1c2c(nn1-c1ccc(O)cc1)CCC(NCCc1ccccc1)C2)N1CCCCC1,CHEMBL4550537,S1R,Homo sapiens,=,316.23,Ki,nM,ChEMBL,6.499996931948306,active,dual binder
+O=c1oc2ccccc2n1CCCCN1CCN(c2ccc([N+](=O)[O-])cc2)CC1,S2RSLDB591,S1R,Homo sapiens,=,259.07,Ki,nM,S2RSLDB,6.586582874890631,active,dual binder
+OC12C3C4CC5C6C4C1C6C(C53)N2CC1CCCCC1,S2RSLDB412,S1R,Homo sapiens,=,6.7,Ki,nM,S2RSLDB,8.173925197299173,active,dual binder
+OCC1(c2ccccc2)CC1CNC12CC3CC(CC(C3)C1)C2,S2RSLDB454,S1R,Homo sapiens,=,5.3,Ki,nM,S2RSLDB,8.275724130399212,active,dual binder
+O[C@@]12[C@H]3[C@H]4[C@@H]5C[C@@H]6[C@H]4[C@H]3[C@@H]([C@@H]6[C@@H]51)N2Cc1cccc(I)c1,S2RSLDB408,S1R,Homo sapiens,=,169.0,Ki,nM,S2RSLDB,6.772113295386326,active,dual binder
+O[C@H]1CCCC[C@@H]1N1C2CCC1CC(c1ccccc1)C2,CHEMBL338411,S1R,Homo sapiens,=,380.0,Ki,nM,ChEMBL,6.42021640338319,active,dual binder
+Oc1cccc2c1CCCC2CCCN1CCN(C2CCCCC2)CC1,CHEMBL74723,S1R,Homo sapiens,=,5.4,Ki,nM,ChEMBL,8.267606240177031,active,dual binder
+c1ccc(C2CCN(CCCCc3c[nH]c4ccccc34)CC2)cc1,S2RSLDB409,S1R,Homo sapiens,=,1.5,IC50,nM,S2RSLDB,8.823908740944319,active,dual binder
+c1ccc(CCCCCCN2CCC3(CC2)OCc2ccccc23)cc1,S2RSLDB436,S1R,Homo sapiens,=,0.53,IC50,nM,S2RSLDB,9.275724130399212,active,dual binder
+C#CCN(CCCN1CCN(C2CCCCC2)CC1)Cc1ccc(C(=O)c2ccc([N+](=O)[O-])cc2)cc1,S2RSLDB282,S2R,Homo sapiens,=,3.78,Ki,nM,S2RSLDB,8.422508200162774,active,dual binder
+C=CCN(CC=C)CCc1c[nH]c2ccc(Br)cc12,S2RSLDB626,S2R,Homo sapiens,=,97.7237221,Ki,nM,S2RSLDB,7.009999999980362,active,dual binder
+C=CCN1CCN(c2ccc3c(c2)CCCN(C(=O)OCc2ccccc2)C3)CC1,"US10954217, Example Table 3.A38",S2R,Homo sapiens,=,268.0,Ki,nM,BindingDB,6.571865205971212,active,dual binder
+C=CCN1CCN(c2ccc3c(c2)CN(S(=O)(=O)c2cc(Cl)cc(Cl)c2)C3)CC1,"US10954217, Example KTL-01-276",S2R,Homo sapiens,=,25.0,Ki,nM,BindingDB,7.602059991327962,active,dual binder
+C=CCOC(=O)N1CC[C@H]2C[C@@H]1c1cc(N3CCN(C)CC3)ccc12,S2RSLDB647,S2R,Homo sapiens,=,442.0,Ki,nM,S2RSLDB,6.354577730650908,active,dual binder
+CC(=O)Nc1ccc2c(c1)oc(=O)n2CCCCN1CCN(C2CCCCC2)CC1,S2RSLDB429,S2R,Homo sapiens,=,77.37,Ki,nM,S2RSLDB,7.1114274031424,active,dual binder
+CC(=O)c1ccc2c(ccn2CCCCN2CCN(C3CCCCC3)CC2)c1,S2RSLDB462,S2R,Homo sapiens,=,2.31,Ki,nM,S2RSLDB,8.636388020107855,active,dual binder
+CC(C)(CCc1ccc(F)cc1)N1Cc2cccc(F)c2C1,"US10207991, Ex. Cpd. No. 33::US10611728, Example Compound 33",S2R,Homo sapiens,=,3.2,Ki,nM,BindingDB,8.494850021680094,active,dual binder
+CC(C)Oc1ccc(CC[C@@H](C)N2Cc3cccc(F)c3C2)cc1OC(C)C,"US10207991, Ex. Cpd. No. 39::US10611728, Example Compound 39",S2R,Homo sapiens,=,21.0,Ki,nM,BindingDB,7.67778070526608,active,dual binder
+CC1(C)C2CC[C@]1(C)CN(CCCC1CCCCC1)C2,S2RSLDB353,S2R,Homo sapiens,=,0.56,Ki,nM,S2RSLDB,9.2518119729938,active,dual binder
+CC1(C)CCCN(CCCCCn2c3ccccc3c3ccccc32)C1,S2RSLDB570,S2R,Homo sapiens,=,117.0,Ki,nM,S2RSLDB,6.931814138253839,active,dual binder
+CC1(C)CCCN(CCCc2cccc3occc23)C1,S2RSLDB530,S2R,Homo sapiens,=,42.3,Ki,nM,S2RSLDB,7.373659632624958,active,dual binder
+CC1(C)CCCN(Cc2cc3ccccc3o2)C1,S2RSLDB482,S2R,Homo sapiens,=,1810.0,Ki,nM,S2RSLDB,5.742321425130816,active,dual binder
+CCCCN1CCN(Cc2ccc(-c3ccccc3)cc2)[C@@H](CCO)C1,S2RSLDB484,S2R,Homo sapiens,=,230.0,Ki,nM,S2RSLDB,6.638272163982407,active,dual binder
+CCCN1CCN(c2ccc3c(c2)CN(C(=O)OCc2ccccc2)CC3)CC1,"US10954217, Example Table 3.A25",S2R,Homo sapiens,=,50.0,Ki,nM,BindingDB,7.301029995663981,active,dual binder
+CCCN1CCN(c2cccc(C3CCCCN3C(=O)/C=C/c3ccccc3)c2)CC1,CHEMBL5183680,S2R,Homo sapiens,=,38.02,Ki,nM,ChEMBL,7.419987887470576,active,dual binder
+CN(CCCNC(=O)c1cc2ccccc2o1)Cc1ccccc1,CHEMBL5169420,S2R,Homo sapiens,=,9.9,Ki,nM,ChEMBL,8.00436480540245,active,dual binder
+CN(Cc1cccnc1)C1C2C3CC4C5C3CC2C5C41,S2RSLDB580,S2R,Homo sapiens,=,881.0,Ki,nM,S2RSLDB,6.055024091587952,active,dual binder
+CN1C2CCC1CC(OC(c1ccccc1)c1ccccc1)C2,S2RSLDB265,S2R,Homo sapiens,=,34.8,Ki,nM,S2RSLDB,7.458420756053419,active,dual binder
+CN1CCN(c2ccc3c(c2)CN(C(=O)OCc2ccccc2)C3)CC1,"CHEMBL4163428::US10954217, Example 00227",S2R,Homo sapiens,=,553.0,Ki,nM,BindingDB,6.257274868695302,active,dual binder
+CN1CC[C@@H]2C[C@@H]1c1cc(-c3ccc(C(F)(F)F)cc3)ccc12,"US11046670, Compound 41",S2R,Homo sapiens,=,43.0,Ki,nM,BindingDB,7.366531544420414,active,dual binder
+COC(=O)C1(c2ccccc2)CC1CN(C)C12CC3CC(CC(C3)C1)C2,S2RSLDB584,S2R,Homo sapiens,=,11.2,Ki,nM,S2RSLDB,7.950781977329818,active,dual binder
+COC1Cc2ccccc2[C@]2(CC[C@H](N(C)CC3CCCCC3)CC2)O1,CHEMBL4562252,S2R,Homo sapiens,=,13.0,Ki,nM,ChEMBL,7.886056647693163,active,dual binder
+COc1cc(CC[C@@H](C)N2Cc3ccc(S(C)(=O)=O)cc3C2)ccc1O,"US10207991, Ex. Cpd. No. 68::US10611728, Example Compound 68",S2R,Homo sapiens,=,400.0,Ki,nM,BindingDB,6.3979400086720375,active,dual binder
+COc1cc([N+](=O)[O-])ccc1NC(=O)OC1CC2CCC(C1)N2Cc1ccccc1,S2RSLDB380,S2R,Homo sapiens,=,2.0,Ki,nM,S2RSLDB,8.698970004336019,active,dual binder
+COc1cc2c(cc1OC)CN(CC1CCN(C(=O)c3cc4ccccc4o3)CC1)CC2,S2RSLDB297,S2R,Homo sapiens,=,44.0,Ki,nM,S2RSLDB,7.356547323513812,active,dual binder
+COc1cc2c(cc1OC)CN(CCCCC(=O)c1ccc(F)cc1)CC2,S2RSLDB547,S2R,Homo sapiens,=,12.4,Ki,nM,S2RSLDB,7.906578314837765,active,dual binder
+COc1cc2c(cc1OC)CN(CCCCn1cc(CCCF)c3ccccc31)CC2,S2RSLDB261,S2R,Homo sapiens,=,28.5,Ki,nM,S2RSLDB,7.54515513999149,active,dual binder
+COc1ccc(C)cc1NC(=O)OC1CC2CCCC(C1)N2Cc1cccc(F)c1,S2RSLDB590,S2R,Homo sapiens,=,318.0,Ki,nM,S2RSLDB,6.497572880015567,active,dual binder
+COc1ccc(CCN2CCC(Nc3nc4ccccc4n3Cc3ccc(F)cc3)CC2)cc1,CHEMBL296419,S2R,Homo sapiens,=,95.0,Ki,nM,ChEMBL,7.022276394711152,active,dual binder
+COc1ccc2c(c1)C(CCCCN1CCCC(C)(C)C1)CCC2,S2RSLDB597,S2R,Homo sapiens,=,160.0,Ki,nM,S2RSLDB,6.795880017344075,active,dual binder
+COc1cccc2c1CCCC2CCCNCC(=O)NC1CCCCC1,S2RSLDB342,S2R,Homo sapiens,=,798.0,Ki,nM,S2RSLDB,6.09799710864927,active,dual binder
+COc1cccc2c1CCC[C@@H]2NCCN1CCN(C2CCCCC2)CC1,S2RSLDB430,S2R,Homo sapiens,=,8.52,Ki,nM,S2RSLDB,8.0695604052333,active,dual binder
+CS(=O)(=O)C1C[C@H]2C[C@@H]1C[C@@H]2c1ccc(-c2cc(C(=O)O)cc3cc(-c4ccc(C(F)(F)F)cc4)ccc23)cc1,CHEMBL5090079,S2R,Homo sapiens,=,1000.0,Ki,nM,ChEMBL,6.0,active,dual binder
+C[C@H](CCc1ccc(Cl)c(Cl)c1)N1Cc2cc3c(cc2C1)OCO3,"US10207991, Ex. Cpd. No. 10::US10611728, Example Compound 10",S2R,Homo sapiens,=,5.0,Ki,nM,BindingDB,8.301029995663981,active,dual binder
+C[C@H](CCc1ccc(Cl)c(Cl)c1)N1Cc2cccc(F)c2C1,"US10207991, Ex. Cpd. No. 9::US10611728, Example Compound 9",S2R,Homo sapiens,=,3.6,Ki,nM,BindingDB,8.443697499232712,active,dual binder
+C[C@H](CCc1ccc(O)c(OC(C)(C)C)c1)N1Cc2c(F)ccc(F)c2C1,"US10207991, Ex. Cpd. No. 60A::US10611728, Example Compound 60A",S2R,Homo sapiens,=,1600.0,Ki,nM,BindingDB,5.795880017344075,active,dual binder
+Cc1c(Cl)cccc1NC(=O)CN1CCC2(CCCN2Cc2ccc(F)c(F)c2)CC1,CHEMBL5290749,S2R,Homo sapiens,=,121.0,Ki,nM,ChEMBL,6.91721462968355,active,dual binder
+Cc1ccc2c(c1)COC21CCN(CCCCc2cn(-c3ccc(F)cc3)c3ccccc23)CC1,S2RSLDB370,S2R,Homo sapiens,=,2.3,IC50,nM,S2RSLDB,8.638272163982407,active,dual binder
+Cc1cccc(C)c1C1CC=C(N2CCN(c3ccccn3)CC2)CC1,S2RSLDB521,S2R,Homo sapiens,=,113.0,Ki,nM,S2RSLDB,6.94692155651658,active,dual binder
+Clc1ccc(Nc2nc3ccccc3c3[nH]c([C@@H]4C[C@@H]5CCC[C@@H](C5)C4)nc23)cc1Cl,CHEMBL5174205,S2R,Homo sapiens,=,3430.0,Ki,nM,ChEMBL,5.464705879957229,active,dual binder
+Cn1c(=O)n(CCCCN2CCN(c3ccc(F)cc3)CC2)c2cc([N+](=O)[O-])ccc21,S2RSLDB399,S2R,Homo sapiens,=,4.72,Ki,nM,S2RSLDB,8.326058001365912,active,dual binder
+Cn1cc(CCCCN2CCC3(CC2)OCc2ccccc23)c2ccccc21,S2RSLDB303,S2R,Homo sapiens,=,0.3,IC50,nM,S2RSLDB,9.522878745280336,active,dual binder
+FCCOc1ccc(N2CCN(CCCCc3cn(-c4ccc(F)cc4)c4ccccc34)CC2)cc1,S2RSLDB264,S2R,Homo sapiens,=,68.0,Ki,nM,S2RSLDB,7.167491087293763,active,dual binder
+Fc1ccc(N2CCN(Cc3cn(CN4CCN(c5ccc(F)cc5)CC4)c4ccccc34)CC2)cc1,S2RSLDB433,S2R,Homo sapiens,=,1000.0,Ki,nM,S2RSLDB,6.0,active,dual binder
+Fc1ccc(OCCCN2CCN(c3ccccc3)CC2)cc1,CHEMBL1940412,S2R,Homo sapiens,=,5.12,Ki,nM,ChEMBL,8.290730039024169,active,dual binder
+O=C(CCCCN1CCC(CO)CC1)c1ccc(F)cc1,S2RSLDB513,S2R,Homo sapiens,=,90.6,Ki,nM,S2RSLDB,7.042871802323187,active,dual binder
+O=C(CN1CCC(Cc2ccccc2)CC1)Nc1cccc2ccccc12,A_3,S2R,Homo sapiens,=,1153.45,Ki,nM,in-house,5.93800122662597,active,dual binder
+O=C(Nc1ccc(Oc2ccc(F)cc2)cc1)N1CCc2ncccc2[C@H]1c1ccc(F)cc1,CHEMBL4592872,S2R,Homo sapiens,=,676.0,Ki,nM,ChEMBL,6.170053304058364,active,dual binder
+O=C(O)C(=O)O.c1ccc(CC2CCN(CC3CSC4(CCCC4)S3)CC2)cc1,CHEMBL4642427,S2R,Homo sapiens,=,3.0,Ki,nM,ChEMBL,8.522878745280337,active,dual binder
+O=C(O)c1cc(-c2ccc([C@@H]3C[C@@H]4C[C@H]3C(=O)N4)cc2)c2ccc(-c3ccc(C(F)(F)F)cc3)cc2c1,CHEMBL5076127,S2R,Homo sapiens,=,1900.0,Ki,nM,ChEMBL,5.721246399047171,active,dual binder
+O=C(c1c2c(nn1-c1ccc(O)cc1)CCC(NCCc1ccccc1)C2)N1CCCCC1,CHEMBL4550537,S2R,Homo sapiens,=,251.19,Ki,nM,ChEMBL,6.599997654072044,active,dual binder
+O=c1oc2ccccc2n1CCCCN1CCN(c2ccc([N+](=O)[O-])cc2)CC1,S2RSLDB591,S2R,Homo sapiens,=,256.0,Ki,nM,S2RSLDB,6.59176003468815,active,dual binder
+OC12C3C4CC5C6C4C1C6C(C53)N2CC1CCCCC1,S2RSLDB412,S2R,Homo sapiens,=,2.2,Ki,nM,S2RSLDB,8.657577319177793,active,dual binder
+OCC1(c2ccccc2)CC1CNC12CC3CC(CC(C3)C1)C2,S2RSLDB454,S2R,Homo sapiens,=,2.22,Ki,nM,S2RSLDB,8.653647025549361,active,dual binder
+O[C@@]12[C@H]3[C@H]4[C@@H]5C[C@@H]6[C@H]4[C@H]3[C@@H]([C@@H]6[C@@H]51)N2Cc1cccc(I)c1,S2RSLDB408,S2R,Homo sapiens,=,54.0,Ki,nM,S2RSLDB,7.267606240177032,active,dual binder
+O[C@H]1CCCC[C@@H]1N1C2CCC1CC(c1ccccc1)C2,S2RSLDB404,S2R,Homo sapiens,=,118.0,Ki,nM,S2RSLDB,6.928117992693875,active,dual binder
+Oc1cccc2c1CCCC2CCCN1CCN(C2CCCCC2)CC1,S2RSLDB483,S2R,Homo sapiens,=,2.66,Ki,nM,S2RSLDB,8.575118363368933,active,dual binder
+c1ccc(C2CCN(CCCCc3c[nH]c4ccccc34)CC2)cc1,S2RSLDB409,S2R,Homo sapiens,=,0.48,IC50,nM,S2RSLDB,9.318758762624412,active,dual binder
+c1ccc(CCCCCCN2CCC3(CC2)OCc2ccccc23)cc1,S2RSLDB436,S2R,Homo sapiens,=,0.2,IC50,nM,S2RSLDB,9.69897000433602,active,dual binder
+CC(C)(C)NCC(O)COC(=O)C1CCCCC1,CHEMBL4751130,S1R,Homo Sapiens,=,50.0,Ki,nM,BindingDB,7.301029995663981,active,dual binder
+CC(C)(C)NCC(O)COC(=O)C1CCCCC1,CHEMBL4516724,S2R,Homo Sapiens,=,40.0,Ki,nM,BindingDB,7.397940008672037,active,dual binder
+CC[C@H]1c2ccc(O)cc2OC[C@@]1(C)N,CHEMBL4575731,S1R,Homo sapiens,>,10000.0,Ki,nM,ChEMBL,5.0,inactive,non-binder
+COc1cc(CCC(C)(C)N2Cc3cccc(C(=O)N(C)CCN(C)C)c3C2)ccc1O,"US10207991, Ex. Cpd. No. 81::US10611728, Example Compound 81",S1R,Homo Sapiens,=,10000.0,Ki,nM,BindingDB,5.0,inactive,non-binder
+CC[C@H]1c2ccc(O)cc2OC[C@@]1(C)N,145954849,S2R,Homo sapiens,=,519000.0,Ki,nM,PubChem,3.284832642151542,inactive,non-binder
+COc1cc(CCC(C)(C)N2Cc3cccc(C(=O)N(C)CCN(C)C)c3C2)ccc1O,"US10207991, Ex. Cpd. No. 81::US10611728, Example Compound 81",S2R,Homo sapiens,=,10000.0,Ki,nM,BindingDB,5.0,inactive,non-binder
+CC(C)COc1cc(CCC(C)(C)N2Cc3ccc(S(C)(=O)=O)cc3C2)ccc1O,"US10207991, Ex. Cpd. No. 87::US10611728, Example Compound 87",S1R,Homo Sapiens,=,69.0,Ki,nM,BindingDB,7.161150909262744,active,semi-selective
+CC(C)Oc1cc(CCC(C)(C)N2Cc3cccc(F)c3C2)ccc1O,"US10207991, Ex. Cpd. No. 28::US10611728, Example Compound 28",S1R,Homo Sapiens,=,120.0,Ki,nM,BindingDB,6.920818753952375,active,semi-selective
+CC(C)Oc1cc(CC[C@@H](C)N2Cc3ccc(F)cc3C2)ccc1O,"US10207991, Ex. Cpd. No. 37::US10611728, Example Compound 37",S1R,Homo Sapiens,=,9.1,Ki,nM,BindingDB,8.040958607678906,active,semi-selective
+CC(CCc1ccc(Cl)c(Cl)c1)N1Cc2ccc3ccccc3c2C1,"US10207991, Ex. Cpd. No. 19::US10611728, Example Compound 19",S1R,Homo Sapiens,=,69.0,Ki,nM,BindingDB,7.161150909262744,active,semi-selective
+CCCc1ccc(C(=O)NCCCN(C)Cc2ccccc2)cc1,CHEMBL4172301,S1R,Homo sapiens,=,3.7,Ki,nM,ChEMBL,8.431798275933005,active,semi-selective
+CCN(CC)CCNC(=O)c1ccc(OC)c([123I])c1,CHEMBL5272845,S1R,Homo sapiens,=,11.82,Ki,nM,ChEMBL,7.927382523454764,active,semi-selective
+CN(CCCNC(=O)c1ccc(Br)cc1)Cc1ccccc1,CHEMBL4169383,S1R,Homo sapiens,=,2.1,Ki,nM,ChEMBL,8.67778070526608,active,semi-selective
+CN(CCCNS(=O)(=O)c1ccc(Cl)cc1)Cc1ccccc1,CHEMBL4164330,S1R,Homo sapiens,=,5.8,Ki,nM,ChEMBL,8.236572006437063,active,semi-selective
+COc1c(C(=O)NCCCCN2CCN(c3cccc(Cl)c3Cl)CC2)cc(Br)c2ccccc12,CHEMBL61789,S1R,Homo sapiens,=,751.0,Ki,nM,ChEMBL,6.124360062995832,active,semi-selective
+COc1cc(CCC(C)(C)N2Cc3ccc(F)cc3C2)ccc1OCCO,"US10207991, Ex. Cpd. No. 45::US10611728, Example Compound 45",S1R,Homo Sapiens,=,2800.0,Ki,nM,BindingDB,5.552841968657781,active,semi-selective
+COc1cc2c(cc1OC)CN(CCCCNC(=O)c1cc(C)ccc1OCC[18F])CC2,CHEMBL227072,S1R,Homo sapiens,=,23.9,Ki,nM,ChEMBL,7.621602099051862,active,semi-selective
+COc1cc2c(cc1OC)CN(CCCCn1cc(-c3ccccc3)c3ccccc31)CC2,S2RSLDB209,S1R,Homo sapiens,=,713.5,Ki,nM,S2RSLDB,6.146606022549334,active,semi-selective
+COc1ccc(C)cc1NC(=O)OC1CC2CCCC(C1)N2CCCCCCCCCCN,CHEMBL3984952,S1R,Homo sapiens,=,133.0,Ki,nM,ChEMBL,6.876148359032914,active,semi-selective
+COc1ccc(C)cc1NC(=O)OC1CC2CCCC(C1)N2CCCCCCNC(=O)CCCC[C@H]1SC[C@H]2NC(=O)N[C@H]21,S2RSLDB152,S1R,Homo sapiens,=,3402.0,Ki,nM,S2RSLDB,5.46826569072345,active,semi-selective
+COc1ccc(C)cc1NC(=O)OC1CC2CCCC(C1)N2Cc1ccc([N+](=O)[O-])cc1,S2RSLDB179,S1R,Homo sapiens,=,539.0,Ki,nM,S2RSLDB,6.268411234813262,active,semi-selective
+COc1ccc(OC)c(NC(=O)OC2CC3CCCC(C2)N3Cc2ccccc2)c1,S2RSLDB229,S1R,Homo sapiens,=,329.1,Ki,nM,S2RSLDB,6.482672117705627,active,semi-selective
+COc1cccc(-c2ccc3c(c2)CCCN(Cc2ccccc2)C3)c1,"CHEMBL4170703::US10954217, Example 00255",S1R,Homo Sapiens,=,21.0,Ki,nM,BindingDB,7.67778070526608,active,semi-selective
+COc1cccc(-c2ccc3c(c2)CCN(Cc2ccccc2)C3)c1,"CHEMBL4160064::US10954217, Example 00236",S1R,Homo Sapiens,=,4.9,Ki,nM,BindingDB,8.309803919971486,active,semi-selective
+COc1cccc(-c2ccc3c(c2)CN(Cc2ccccc2)C3)c1,"CHEMBL4167315::US10954217, Example 00225",S1R,Homo Sapiens,=,4.1,Ki,nM,BindingDB,8.387216143280265,active,semi-selective
+Cc1ccc(S(=O)(=O)n2cc(CCCCN3CCC4(CC3)OCc3ccccc34)c3ccccc32)cc1,S2RSLDB119,S1R,Homo sapiens,=,10.0,IC50,nM,S2RSLDB,8.0,active,semi-selective
+Cn1nc(CN2CCCC2)nc1-c1ccc2cc(Cl)sc2c1,CHEMBL4797095,S1R,Homo sapiens,=,37.0,Ki,nM,ChEMBL,7.431798275933005,active,semi-selective
+Fc1cc(COC2CCN(Cc3ccc4[nH]cnc4c3)CC2)ccc1Cl,CHEMBL5187721,S1R,Homo sapiens,=,3.9,Ki,nM,ChEMBL,8.4089353929735,active,semi-selective
+Fc1ccc(-n2cc(CCCCN3CCC4(CC3)OCCc3ccccc34)c3ccccc32)cc1,S2RSLDB117,S1R,Homo sapiens,=,53.0,IC50,nM,S2RSLDB,7.275724130399211,active,semi-selective
+Fc1ccc(-n2cc(CCCCN3CCC4(CC3)OCc3ccc(F)cc34)c3ccccc32)cc1,S2RSLDB194,S1R,Homo sapiens,=,5.5,IC50,nM,S2RSLDB,8.259637310505756,active,semi-selective
+O=C(CCCN1CCCN(c2ccccn2)CC1)c1ccc(F)cc1,CHEMBL4533305,S1R,Homo sapiens,=,457.09,Ki,nM,ChEMBL,6.339998279897117,active,semi-selective
+O=C(OCc1ccccc1)N1CCc2ccc(N3CCN(C4CCCC4)CC3)cc2C1,"CHEMBL4165863::US10954217, Example 00237",S1R,Homo Sapiens,=,51.0,Ki,nM,BindingDB,7.292429823902063,active,semi-selective
+OC(CN1C2CCC1CC(c1ccccc1)C2)c1ccc(Cl)c(Cl)c1,CHEMBL127013,S1R,Homo sapiens,=,249.3,Ki,nM,ChEMBL,6.603277721496227,active,semi-selective
+CC(C)COc1cc(CCC(C)(C)N2Cc3ccc(S(C)(=O)=O)cc3C2)ccc1O,"US10207991, Ex. Cpd. No. 87::US10611728, Example Compound 87",S2R,Homo sapiens,=,1.1,Ki,nM,BindingDB,8.958607314841775,active,semi-selective
+CC(C)Oc1cc(CCC(C)(C)N2Cc3cccc(F)c3C2)ccc1O,CHEMBL4867297,S2R,Homo sapiens,=,11.0,Ki,nM,ChEMBL,7.958607314841775,active,semi-selective
+CC(C)Oc1cc(CC[C@@H](C)N2Cc3ccc(F)cc3C2)ccc1O,"US10207991, Ex. Cpd. No. 37::US10611728, Example Compound 37",S2R,Homo sapiens,=,140.0,Ki,nM,BindingDB,6.853871964321762,active,semi-selective
+CC(CCc1ccc(Cl)c(Cl)c1)N1Cc2ccc3ccccc3c2C1,"US10207991, Ex. Cpd. No. 19::US10611728, Example Compound 19",S2R,Homo sapiens,=,1.8,Ki,nM,BindingDB,8.744727494896694,active,semi-selective
+CCCc1ccc(C(=O)NCCCN(C)Cc2ccccc2)cc1,CHEMBL4172301,S2R,Homo sapiens,=,160.0,Ki,nM,ChEMBL,6.795880017344075,active,semi-selective
+CCN(CC)CCNC(=O)c1ccc(OC)c([123I])c1,CHEMBL5272845,S2R,Homo sapiens,=,206.0,Ki,nM,ChEMBL,6.686132779630847,active,semi-selective
+CN(CCCNC(=O)c1ccc(Br)cc1)Cc1ccccc1,CHEMBL4169383,S2R,Homo sapiens,=,160.0,Ki,nM,ChEMBL,6.795880017344075,active,semi-selective
+CN(CCCNS(=O)(=O)c1ccc(Cl)cc1)Cc1ccccc1,CHEMBL4164330,S2R,Homo sapiens,=,200.0,Ki,nM,ChEMBL,6.698970004336019,active,semi-selective
+COc1c(C(=O)NCCCCN2CCN(c3cccc(Cl)c3Cl)CC2)cc(Br)c2ccccc12,S2RSLDB156,S2R,Homo sapiens,=,26.4,Ki,nM,S2RSLDB,7.578396073130169,active,semi-selective
+COc1cc(CCC(C)(C)N2Cc3ccc(F)cc3C2)ccc1OCCO,"US10207991, Ex. Cpd. No. 45::US10611728, Example Compound 45",S2R,Homo sapiens,=,190.0,Ki,nM,BindingDB,6.721246399047171,active,semi-selective
+COc1cc2c(cc1OC)CN(CCCCNC(=O)c1cc(C)ccc1OCC[18F])CC2,CHEMBL227072,S2R,Homo sapiens,=,2.0,Ki,nM,ChEMBL,8.698970004336019,active,semi-selective
+COc1cc2c(cc1OC)CN(CCCCn1cc(-c3ccccc3)c3ccccc31)CC2,S2RSLDB209,S2R,Homo sapiens,=,46.29,Ki,nM,S2RSLDB,7.334512819217189,active,semi-selective
+COc1ccc(C)cc1NC(=O)OC1CC2CCCC(C1)N2CCCCCCCCCCN,CHEMBL3984952,S2R,Homo sapiens,=,7.7,Ki,nM,ChEMBL,8.113509274827518,active,semi-selective
+COc1ccc(C)cc1NC(=O)OC1CC2CCCC(C1)N2CCCCCCNC(=O)CCCC[C@H]1SC[C@H]2NC(=O)N[C@H]21,S2RSLDB152,S2R,Homo sapiens,=,114.0,Ki,nM,S2RSLDB,6.943095148663527,active,semi-selective
+COc1ccc(C)cc1NC(=O)OC1CC2CCCC(C1)N2Cc1ccc([N+](=O)[O-])cc1,S2RSLDB179,S2R,Homo sapiens,=,25.2,Ki,nM,S2RSLDB,7.598599459218456,active,semi-selective
+COc1ccc(OC)c(NC(=O)OC2CC3CCCC(C2)N3Cc2ccccc2)c1,S2RSLDB229,S2R,Homo sapiens,=,26.8,Ki,nM,S2RSLDB,7.5718652059712115,active,semi-selective
+COc1cccc(-c2ccc3c(c2)CCCN(Cc2ccccc2)C3)c1,"CHEMBL4170703::US10954217, Example 00255",S2R,Homo sapiens,=,440.0,Ki,nM,BindingDB,6.356547323513812,active,semi-selective
+COc1cccc(-c2ccc3c(c2)CCN(Cc2ccccc2)C3)c1,"CHEMBL4160064::US10954217, Example 00236",S2R,Homo sapiens,=,57.0,Ki,nM,BindingDB,7.244125144327507,active,semi-selective
+COc1cccc(-c2ccc3c(c2)CN(Cc2ccccc2)C3)c1,"CHEMBL4167315::US10954217, Example 00225",S2R,Homo sapiens,=,65.0,Ki,nM,BindingDB,7.187086643357144,active,semi-selective
+Cc1ccc(S(=O)(=O)n2cc(CCCCN3CCC4(CC3)OCc3ccccc34)c3ccccc32)cc1,S2RSLDB119,S2R,Homo sapiens,=,0.17,IC50,nM,S2RSLDB,9.769551078621726,active,semi-selective
+Cn1nc(CN2CCCC2)nc1-c1ccc2cc(Cl)sc2c1,CHEMBL4797095,S2R,Homo sapiens,=,1000.0,Ki,nM,ChEMBL,6.0,active,semi-selective
+Fc1cc(COC2CCN(Cc3ccc4[nH]cnc4c3)CC2)ccc1Cl,CHEMBL5187721,S2R,Homo sapiens,=,70.0,Ki,nM,ChEMBL,7.154901959985743,active,semi-selective
+Fc1ccc(-n2cc(CCCCN3CCC4(CC3)OCCc3ccccc34)c3ccccc32)cc1,S2RSLDB117,S2R,Homo sapiens,=,0.9,IC50,nM,S2RSLDB,9.045757490560677,active,semi-selective
+Fc1ccc(-n2cc(CCCCN3CCC4(CC3)OCc3ccc(F)cc34)c3ccccc32)cc1,S2RSLDB194,S2R,Homo sapiens,=,0.31,IC50,nM,S2RSLDB,9.508638306165729,active,semi-selective
+O=C(CCCN1CCCN(c2ccccn2)CC1)c1ccc(F)cc1,CHEMBL4533305,S2R,Homo sapiens,=,32.0,Ki,nM,ChEMBL,7.494850021680094,active,semi-selective
+O=C(OCc1ccccc1)N1CCc2ccc(N3CCN(C4CCCC4)CC3)cc2C1,"CHEMBL4165863::US10954217, Example 00237",S2R,Homo sapiens,=,2.7,Ki,nM,BindingDB,8.568636235841012,active,semi-selective
+OC(CN1C2CCC1CC(c1ccccc1)C2)c1ccc(Cl)c(Cl)c1,S2RSLDB223,S2R,Homo sapiens,=,18.8,Ki,nM,S2RSLDB,7.72584215073632,active,semi-selective
