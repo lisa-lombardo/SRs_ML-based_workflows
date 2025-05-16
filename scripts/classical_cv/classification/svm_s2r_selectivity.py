@@ -41,8 +41,8 @@ def main():
         clf = SVC(
             kernel='rbf',
             C=trial.suggest_float('C', 2, 61, log=True),
-            gamma=trial.suggest_float('gamma', 0.0062, 0.0074, log=True),
-            class_weight=trial.suggest_categorical('class_weight', ['balanced', None]),
+            gamma=trial.suggest_float('gamma', 2.0e-4, 8.9e-4, log=True),
+            class_weight='balanced',
             probability=True
         )
         pipeline = Pipeline([('scaler', StandardScaler()), ('classifier', clf)])
