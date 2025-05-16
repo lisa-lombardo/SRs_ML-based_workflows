@@ -3,7 +3,6 @@
 import os
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import seaborn as sns
 import joblib
 from xgboost import XGBClassifier
@@ -18,22 +17,6 @@ import optuna
 from optuna.samplers import TPESampler
 from imblearn.under_sampling import RandomUnderSampler
 import argparse
-import matplotlib
-matplotlib.use('Agg')
-
-def plot_confusion_matrix(cm, fold, labels, output_dir):
-    plt.figure(figsize=(8, 6))
-    sns.set(font_scale=1.6)
-    sns.heatmap(cm, annot=True, cmap='Blues', fmt='d', xticklabels=labels, yticklabels=labels, cbar=False)
-    plt.xlabel('Predicted Label', fontsize=18)
-    plt.ylabel('True Label', fontsize=18)
-    plt.title(f'Confusion Matrix - Fold {fold}', fontsize=18)
-    plt.xticks(fontsize=18)
-    plt.yticks(fontsize=18)
-    plt.tight_layout()
-    filename = os.path.join(output_dir, f'confusion_matrix_fold{fold}.png')
-    plt.savefig(filename)
-    plt.close()
 
 def main():
     parser = argparse.ArgumentParser(description="Train final XGBoost model with cross-validation")
@@ -56,11 +39,11 @@ def main():
 
     def objective(trial):
         xgb = XGBClassifier(
-            n_estimators=trial.suggest_int('n_estimators', 100, 1000),
-            max_depth=trial.suggest_int('max_depth', 3, 30),
-            learning_rate=trial.suggest_float('learning_rate', 0.01, 0.3),
-            subsample=trial.suggest_float('subsample', 0.5, 1.0),
-            colsample_bytree=trial.suggest_float('colsample_bytree', 0.5, 1.0),
+            n_estimators=trial.suggest_int('n_estimators', 197, 993),
+            max_depth=trial.suggest_int('max_depth', 8, 21),
+            learning_rate=trial.suggest_float('learning_rate', 0.012, 0.083),
+            subsample=trial.suggest_float('subsample', 0.5, 0.74),
+            colsample_bytree=trial.suggest_float('colsample_bytree', 0.64, 0.97),
             n_jobs=3
         )
         pipeline = Pipeline([('scaler', StandardScaler()), ('classifier', xgb)])
