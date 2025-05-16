@@ -65,7 +65,7 @@ def objective(trial):
 
 # Optimize hyperparameters using Optuna
 study = optuna.create_study(direction='minimize', sampler=optuna.samplers.TPESampler())
-study.optimize(objective, n_trials=30)
+study.optimize(objective, n_trials=50)
 
 # Best hyperparameters found during cross-validation
 best_params = study.best_params
