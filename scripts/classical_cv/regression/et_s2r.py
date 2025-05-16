@@ -40,16 +40,17 @@ cv = KFold(n_splits=5, shuffle=True, random_state=1)
 
 # Hyperparameter optimization using Optuna
 def objective(trial):
-    # Suggest hyperparameters for RandomForestRegressor
-    bootstrap = trial.suggest_categorical('bootstrap', [True, False])
-    max_features = trial.suggest_categorical('max_features', ['sqrt', 'log2'])
-    n_estimators = trial.suggest_int('n_estimators', 100, 1000)
-    max_depth = trial.suggest_int('max_depth', 5, 50)
-    min_samples_split = trial.suggest_int('min_samples_split', 2, 20)
-    min_samples_leaf = trial.suggest_int('min_samples_leaf', 1, 6)
-    criterion = trial.suggest_categorical('criterion', ["squared_error", "absolute_error", "friedman_mse", "poisson"])
+    # Suggest hyperparameters for ExtraTreesRegressor
+    bootstrap = False  # not "False"
+    max_features = 'sqrt'  # or trial.suggest_categorical('max_features', ['sqrt', 'log2'])
+    n_estimators = trial.suggest_int('n_estimators', 445, 995)
+    max_depth = trial.suggest_int('max_depth', 23, 48)
+    min_samples_split = trial.suggest_int('min_samples_split', 9, 13)
+    min_samples_leaf = trial.suggest_int('min_samples_leaf', 1, 5)  # optional tuning
+    criterion = trial.suggest_categorical('criterion', ["squared_error", "friedman_mse", "poisson"])
 
-    # Create the RandomForestRegressor with suggested hyperparameters
+
+    # Create the ExtraTreesRegressor with suggested hyperparameters
     regressor = ExtraTreesRegressor(bootstrap=bootstrap, max_features=max_features, n_estimators=n_estimators, 
                                       max_depth=max_depth, min_samples_split=min_samples_split, 
                                       min_samples_leaf=min_samples_leaf, criterion=criterion, n_jobs=-1)
