@@ -57,12 +57,12 @@ def main():
 
     def objective(trial):
         clf = ExtraTreesClassifier(
-            n_estimators=trial.suggest_int('n_estimators', 100, 1000),
-            max_depth=trial.suggest_int('max_depth', 3, 30),
-            min_samples_split=trial.suggest_int('min_samples_split', 2, 20),
-            min_samples_leaf=trial.suggest_int('min_samples_leaf', 1, 10),
+            n_estimators=trial.suggest_int('n_estimators', 417, 823),
+            max_depth=trial.suggest_int('max_depth', 10, 29),
+            min_samples_split=trial.suggest_int('min_samples_split', 2, 5),
+            min_samples_leaf=trial.suggest_int('min_samples_leaf', 1, 3),
             bootstrap=False,
-            class_weight=trial.suggest_categorical('class_weight', ['balanced', 'balanced_subsample']),
+            class_weight='balanced_subsample',
             random_state=1,
             n_jobs=3
         )
