@@ -3,7 +3,6 @@
 import os
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import seaborn as sns
 import joblib
 from sklearn.ensemble import ExtraTreesClassifier
@@ -18,22 +17,6 @@ import optuna
 from optuna.samplers import TPESampler
 from imblearn.under_sampling import RandomUnderSampler
 import argparse
-import matplotlib
-matplotlib.use('Agg')
-
-def plot_confusion_matrix(cm, fold, labels, output_dir):
-    plt.figure(figsize=(8, 6))
-    sns.set(font_scale=1.6)
-    sns.heatmap(cm, annot=True, cmap='Blues', fmt='d', xticklabels=labels, yticklabels=labels, cbar=False)
-    plt.xlabel('Predicted Label', fontsize=18)
-    plt.ylabel('True Label', fontsize=18)
-    plt.title(f'Confusion Matrix - Fold {fold}', fontsize=18)
-    plt.xticks(fontsize=18)
-    plt.yticks(fontsize=18)
-    plt.tight_layout()
-    filename = os.path.join(output_dir, f'confusion_matrix_fold{fold}.png')
-    plt.savefig(filename)
-    plt.close()
 
 def main():
     parser = argparse.ArgumentParser(description="Train final ExtraTreesClassifier model with cross-validation")
@@ -57,10 +40,10 @@ def main():
 
     def objective(trial):
         clf = ExtraTreesClassifier(
-            n_estimators=trial.suggest_int('n_estimators', 100, 1000),
-            max_depth=trial.suggest_int('max_depth', 3, 30),
-            min_samples_split=trial.suggest_int('min_samples_split', 2, 20),
-            min_samples_leaf=trial.suggest_int('min_samples_leaf', 1, 10),
+            n_estimators=trial.suggest_int('n_estimators', 770, 957),
+            max_depth=trial.suggest_int('max_depth', 17, 28),
+            min_samples_split=trial.suggest_int('min_samples_split', 4, 10),
+            min_samples_leaf=trial.suggest_int('min_samples_leaf', 1, 2),
             bootstrap=False,
             class_weight=trial.suggest_categorical('class_weight', ['balanced', 'balanced_subsample']),
             random_state=1, n_jobs=3
