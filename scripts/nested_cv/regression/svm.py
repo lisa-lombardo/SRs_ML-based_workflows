@@ -91,7 +91,7 @@ def main():
             
             # Optuna hyperparameter optimization within the outer training set
             study = optuna.create_study(direction='minimize', sampler=optuna.samplers.TPESampler())
-            study.optimize(objective, n_trials=30)
+            study.optimize(objective, n_trials=50)
             
             # Best hyperparameters and R² found during inner cross-validation
             best_params = study.best_params
