@@ -39,11 +39,11 @@ def main():
     kfold = KFold(n_splits=5, shuffle=True, random_state=1)
 
     def objective(trial):
-        n_estimators = trial.suggest_int('n_estimators', 615, 819)
+        n_estimators = trial.suggest_int('n_estimators', 623, 776)
         max_depth = trial.suggest_int('max_depth', 6, 9)
-        learning_rate = trial.suggest_float('learning_rate', 0.017, 0.04)
-        subsample = trial.suggest_float('subsample', 0.54, 0.96)
-        colsample_bytree = trial.suggest_float('colsample_bytree', 0.58, 0.99)
+        learning_rate = trial.suggest_float('learning_rate', 0.011, 0.04)
+        subsample = trial.suggest_float('subsample', 0.53, 0.84)
+        colsample_bytree = trial.suggest_float('colsample_bytree', 0.58, 0.97)
 
         regressor = XGBRegressor(n_estimators=n_estimators, max_depth=max_depth, 
                                  learning_rate=learning_rate, subsample=subsample, 
