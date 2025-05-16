@@ -3,8 +3,6 @@
 import os
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 import joblib
 from sklearn.svm import SVC
 from sklearn.model_selection import StratifiedKFold, cross_val_score
@@ -18,22 +16,7 @@ import optuna
 from optuna.samplers import TPESampler
 from imblearn.under_sampling import RandomUnderSampler
 import argparse
-import matplotlib
-matplotlib.use('Agg')
 
-def plot_confusion_matrix(cm, fold, labels, output_dir):
-    plt.figure(figsize=(8, 6))
-    sns.set(font_scale=1.6)
-    sns.heatmap(cm, annot=True, cmap='Blues', fmt='d', xticklabels=labels, yticklabels=labels, cbar=False)
-    plt.xlabel('Predicted Label', fontsize=18)
-    plt.ylabel('True Label', fontsize=18)
-    plt.title(f'Confusion Matrix - Fold {fold}', fontsize=18)
-    plt.xticks(fontsize=18)
-    plt.yticks(fontsize=18)
-    plt.tight_layout()
-    filename = os.path.join(output_dir, f'confusion_matrix_fold{fold}.png')
-    plt.savefig(filename)
-    plt.close()
 
 def main():
     parser = argparse.ArgumentParser(description="Train final SVM model with cross-validation")
@@ -57,9 +40,9 @@ def main():
     def objective(trial):
         clf = SVC(
             kernel='rbf',
-            C=trial.suggest_float('C', 0.01, 100.0, log=True),
-            gamma=trial.suggest_float('gamma', 1e-4, 1.0, log=True),
-            class_weight=trial.suggest_categorical('class_weight', ['balanced', None]),
+            C=trial.suggest_float('C', 0.57, 1.10, log=True),
+            gamma=trial.suggest_float('gamma', 5.3e-4, 1.4e-3, log=True),
+            class_weight='balanced',
             probability=True
         )
         pipeline = Pipeline([('scaler', StandardScaler()), ('classifier', clf)])
